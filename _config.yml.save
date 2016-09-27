@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Ian Hartman
+tagline:          'Python and Houdini Development Blog'
+description:      'Hello World.'
+url:          http://www.ianmhartman.com
+baseurl:          /
+
+author:
+  name:           'Ian Hartman'
+  url:            http://www.ianmhartman.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+gems:		  [jekyll-paginate, jekyll-gist]
