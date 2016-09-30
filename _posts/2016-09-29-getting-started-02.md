@@ -14,15 +14,15 @@ Quick breakdown of the high-level view of my Basket Pipeline Toolset.
 Created using the following...
 
 **Languages (+ Libraries):**
-* Python 2.7
-* PySide (Qt 4.8.5)
+- Python 2.7
+- PySide (Qt 4.8.5)
 
 Works with / Extends the following...
 
 **Software:**
-* Autodesk Maya 2016.5
-* NUKE 10.0v4
-* Houdini 15.5
+- Autodesk Maya 2016.5
+- NUKE 10.0v4
+- Houdini 15.5
 
 ### Launching Applications
 
@@ -37,7 +37,7 @@ The main environment variables that need to be set are **PATH, PYTHONPATH, and N
 
 With access to crucial environmant variables and a server-based project directory, I am able to treat the project directory as a lo-fi database. With a few lines of code, Maya and NUKE know exactly where to save new scripts and with a bit more code Maya can version up the files... Because adding a .#### to the end of the file name isn't a very intuitive way to iterate on a file name.
 
-One of the best resources for NUKE implementation as been the NUKE python guide](https://www.thefoundry.co.uk/products/nuke/developers/100/pythondevguide/asset.html). They outline successful ways in which to implement some basic functionality that I have added on top of.
+One of the best resources for NUKE implementation as been the [NUKE python guide](https://www.thefoundry.co.uk/products/nuke/developers/100/pythondevguide/asset.html). They outline successful ways in which to implement some basic functionality that I have added on top of.
 
 I have also included a NUKE-based BurnIn script that adds a BurnIn node that adds basic information onto the render. Especially important for dailies and sharing shots for review / feedback.
 
