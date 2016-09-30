@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started #3
+title: 03. Getting Started
 ---
 
 <div class="message">
