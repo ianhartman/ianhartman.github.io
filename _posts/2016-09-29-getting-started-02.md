@@ -14,12 +14,14 @@ Quick breakdown of the high-level view of my Basket Pipeline Toolset.
 Created using the following...
 
 **Languages (+ Libraries):**
+
 - Python 2.7
 - PySide (Qt 4.8.5)
 
 Works with / Extends the following...
 
 **Software:**
+
 - Autodesk Maya 2016.5
 - NUKE 10.0v4
 - Houdini 15.5
